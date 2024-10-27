@@ -2,7 +2,7 @@ import os
 import torch
 import whisper
 
-model_path = "whisper_model.pt"
+model_path = "whisper_model_small.pt"
 
 # Check if the model file exists
 if os.path.exists(model_path):
